@@ -1,4 +1,4 @@
-.h1{color:#6666ff;}
+.h1{color:#8A2BE2; font-size: 24pt; font-family:sans-serif;}
 
 footer p{font-size:9pt;}
 
@@ -10,3 +10,14 @@ footer a:visited{color:maroon;}
 
 footer a:active{color:coral;}
 
+.h3{color:#8A2BE2; font-size: 16pt; font-family:sans-serif;}
+
+main p, blockquote{font-size:12pt; font-family:sans-serif;}
+
+.ul{font-family:sans-serif;}
+
+.li1{font-family:sans-serif; color:red;}
+
+.li2{font-family:sans-serif; color:blue;}
+
+.img{float:left;}
