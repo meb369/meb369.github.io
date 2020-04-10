@@ -1,1 +1,12 @@
 .h1{color:#6666ff;}
+
+footer p{font-size:9pt;}
+
+footer a:link{color:green; text-decoration:none; font-size:10pt;}
+
+footer a:hover, a:focus{color:purple;}
+
+footer a:visited{color:maroon;}
+
+footer a:active{color:coral;}
+
