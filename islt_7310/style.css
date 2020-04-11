@@ -1,6 +1,6 @@
-.h1{color:#8A2BE2; font-size: 24pt; font-family:sans-serif;}
+.h1{color:#8A2BE2; font-size: 24pt; font-family:sans-serif;background-color: darkgrey; border-style:double;}
 
-footer p{font-size:9pt;}
+footer p{font-size:9pt; border-top:5px solid purple;}
 
 footer a:link{color:green; text-decoration:none; font-size:10pt;}
 
@@ -20,3 +20,8 @@ main p, blockquote{font-size:12pt; font-family:sans-serif;}
 
 .li2{font-family:sans-serif; color:blue;}
 
+.body{background-color:aliceblue;}
+
+.img{float:left;
+    padding-right:30px;
+    padding-bottom:30px;}
