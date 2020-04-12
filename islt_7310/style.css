@@ -1,8 +1,10 @@
-.h1{color:#8A2BE2; font-size: 24pt; font-family:sans-serif;background-color: darkgrey; border-style:double;}
+/*This document validates as CSS level 3+SVG: April 12, 2020*/
+
+.h1{color:#24305e; font-size: 24pt; font-family:sans-serif;background-color:#84ceeb; border-style:double;}
 
 footer p{font-size:9pt; border-top:5px solid purple;}
 
-footer a:link{color:green; text-decoration:none; font-size:10pt;}
+footer a:link{color:green; text-decoration:none; font-size:10pt; padding-top:5px;}
 
 footer a:hover, a:focus{color:purple;}
 
@@ -10,18 +12,19 @@ footer a:visited{color:maroon;}
 
 footer a:active{color:coral;}
 
-.h3{color:#8A2BE2; font-size: 16pt; font-family:sans-serif;}
+.h3{background-color:#84ceeb; color:#24305e; font-size: 16pt; font-family:sans-serif; border-style: double;}
 
-main p, blockquote{font-size:12pt; font-family:sans-serif;}
+main p, blockquote{font-size:12pt; font-family:sans-serif; color:#24305e;}
 
-.ul{font-family:sans-serif;}
+.ul{font-family:sans-serif; font-size:12pt; color:#24305e;font-weight: bolder; list-style-type:none;}
 
-.li1{font-family:sans-serif; color:red;}
+.li1{font-family:sans-serif; color:#24305e; font-size:12pt; font-weight:100; list-style-type:disc;}
 
-.li2{font-family:sans-serif; color:blue;}
+.li2{font-family:sans-serif; color:#8860d0; font-size:12pt; font-weight:100;}
 
-.body{background-color:aliceblue;}
+.body{background-color:#c1c8e4; margin:15px;}
 
 .img{float:left;
     padding-right:30px;
     padding-bottom:30px;}
+
