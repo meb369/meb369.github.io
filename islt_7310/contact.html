@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <!--Title: Resume Page
+        <!--Title: Contact Page
         Author: Meghan Brueggemann
         Developed: April 5, 2020
         This document validated on April 26, 2020-->
@@ -11,7 +11,14 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="nav.css">
         <style>
-            aside img {float:none;}
+            h3 {font-style:oblique;
+            background-color: #84ceeb;
+            border-color:#24305e;}
+            
+            label {font-size: 14pt;
+                   color:#24305e;
+                   font-family:sans-serif;
+                   text-align:center;}
         </style>
     </head>
     <body class="body">
@@ -41,30 +48,31 @@
         </ul>
     </nav>
     </header>
+    
     <main>
-        <h3>Degrees</h3>
-        <ul class="ul">
-                <li class="li">Southeast Missouri State University<br>
-                    Bachelor of Music Education<br>
-                    Graduated: May 2008<br><br><br></li>
-            
-                <li class="li">University of Missouri - Columbia<br>
-                    Master of Information Science and Learning Technology<br>
-                    Emphasis in Educational Technology<br>
-                    Focus Area of Technology in Schools<br>
-                    Anticipated Graduation Date: May 2020<br><br><br></li>
-        </ul>
-        
-        <a href="docs/brueggemannresume.pdf" target="_blank">Link to meghan Brueggemann's Resume</a>
-        <br><br>
+        <h3>Contact me</h3>
+        <form action="/action_page.php">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="email"><br>
+            <label for="reason">About</label>
+            <input type="text" id="reason" name="reason"><br><br>
+            <input type="submit" value="Submit"></form>
     </main>
     <aside>
-        <h3>Career Highlights</h3>
-        <img src="images/recruitmenttour.png" alt="Recruitment Tour 2019" class="responsive"><img src="images/state19.png" alt="State-Bound students 2019" class="responsive"><img src="images/winterconcert18.png" alt="Winter Concert 2019" class="responsive">
-    </aside>
-    <footer>
-        <p>This page is copyrighted to Meghan Brueggemann</p>
+        <h3>More Ways to Contact</h3>
+        <h4>E-mail:</h4>
+        <a href="mailto:meghan.brueggemann@washington.k12.mo.us">meghan.brueggemann@washington.k12.mo.us</a><br>
         <a href="mailto:meb369@mail.missouri.edu">meb369@mail.missouri.edu</a>
-    </footer>
-    </body>
+        <h4>Phone:</h4>
+        <a href="tel:573-382-7499">573-382-7499</a>
+        <h4>Address:</h4>
+        <p>600 Blue Jay Drive<br>Washington, MO 63090</p>
+        
+        </aside>
+        <footer class="footer">
+        <p>This page is copyrighted to Meghan Brueggemann</p>
+        <a href="mailto:meb369@mail.missouri.edu">meb369@mail.missouri.edu</a></footer>
+</body>
 </html>
