@@ -4,36 +4,46 @@
         This document validated on April 26, 2020*/
 
 nav {float:right;
-     padding: 20px;}
+     padding: 20px;
+     top:0;}
 
-nav ul li{
-    position:relative;
-    display:inline;
-       border: 2px solid #243053;
-       width: 160px;
-       list-style-type: none;
-       padding: 10px 10px 10px 10px;
-       top: 0;
-       margin-bottom: 20px;
-       background-color:#f76c6c;
-       font-weight: bold;
-       text-align: center;
-       font-family:san-serif;
-       margin-bottom: auto;}
+nav ul {list-style-type:none;
+        margin:0;
+        padding:0;}
 
 nav>ul li{position:relative;
-          text-align: center;
-          font-weight:bold;
-          color:#24305e;
           float:left;
-          text-decoration:none;}
+          margin-bottom:20px;
+          font-weight:bold;
+          text-align: center;
+          font-family:sans-serif;
+          color:#24305e;
+          margin-bottom:auto;
+          text-decoration:none;
+         }
+
 
 nav a{text-decoration:none;
-      display:inline-block;
+      display: inline-block;
+      border: 2px solid #243053;
+      width: 160px;
+      padding: 10px 10px 10px 10px;
+      background-color:#f76c6c;
+      margin: 1px;
       font-family:sans-serif;}
 
+nav ul li{
+      position:relative;
+      float:left;
+      font-weight: bold;
+      color:#24305e;
+      text-decoration: none;}
+
+nav a{text-decoration:none;
+      display:block;}
+
 nav a:link{background-color:#f76c6c;}
-nav a:hover, nav_menu a:focus{background-color:#347485;}
+nav a:hover, nav a:focus{background-color:#347485;}
 nav a:active{background-color:#f8e9a1;}
 
 nav ul>li ul{position:absolute;
@@ -41,11 +51,13 @@ nav ul>li ul{position:absolute;
                     display:none;
                 }
 
-nav>ul>li:hover>ul{display:inline-grid;
-                   margin-left:-170px;}
+nav ul ul li{float:none;
+            }
+
+nav>ul>li:hover>ul{display:block;}
 
 nav_menu ul ul li{float:none;
-                  margin-top:100%;}
+                  }
 
 nav ul li a{text-decoration: none;
                 color: #24305e}
@@ -54,9 +66,6 @@ nav ul li a.current {color:#a8d0e6;}
 
 nav ul li a.lastitem {color:#24305e}
 
-
-nav ul ul li{float:none;}
-
 #menu-icon{
     background:url(images/menu-icon.png) no-repeat center;
     display:none;
@@ -64,34 +73,47 @@ nav ul ul li{float:none;}
     height:32px;}
     
 @media only screen and (max-width:640px){
-    header{position:absolute;}
+    header{position:relative;
+    display:block;
+    width:100%;}
+    
+    nav {float:left;
+         padding:20px;}
     
     #menu-icon{
         display:inline-block;
-        clear:both;
+        padding-left:20px;
+        width:32px;
+        height:32px;
+        float:left;
         
     }
+    
     nav ul, nav:active ul{
         display:none;
         position:absolute;
-        padding: 20px 20px 20px 20px;
+        padding: 50px 0px 20px 20px;
         top:20px;}
     
     nav:hover ul{
         display:block;}
     
+    nav li{
+        text-align:center;
+        padding:0;
+        margin:0;
+    }
+    
     nav:hover #mobileHide{
         display:none;}
     
-    nav li{
-        text-align:left;
-        float:left;}
-    
     nav a {text-decoration:none;
            display:inline-block;
-           border-top: none;
-           border-bottom:none;
-           padding: 15px 0px 15px 35px;}
+           border-top:none;
+    border-bottom:none;
+    padding: 15px 0px 15px 35px
+    width:240px;
+    margin-bottom:1px;} 
 }
         
         
