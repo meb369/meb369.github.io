@@ -1,0 +1,19 @@
+@font-face{
+    font-family:Josefin_Sans;
+    src:url(JosefinSans-Regular.ttf);}
+    
+@media print {
+    nav {display:none;}
+    
+    h3 {color:black;
+        font-family:serif;}
+    
+    p {color:black;
+    font-family:serif;}
+    
+    blockquote{color:black;
+               font-family: Josefin_Sans;
+    }
+    
+    footer {font-size:9pt; border-top:5px solid black; clear:both;}
+}

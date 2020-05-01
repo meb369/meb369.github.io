@@ -101,30 +101,6 @@ h1{color:#24305e; font-size: 24pt; font-family:sans-serif;background-color:#84ce
     height: 100%;}
 }
 
-@media print{
-    .noprint{
-        display:none;
-    }
-    
-    h3 {color:black;
-        font-size:16pt;
-        font-family:serif;}
-    
-    ul{font-family:serif; font-size:12pt; color:black;font-weight: bolder; list-style-type:none;}
 
-    .li1{font-family:serif; color:black; font-size:12pt; font-weight:100; list-style-type:disc;}
-
-    .li2{font-family:serif; color:black; font-size:12pt; font-weight:100;}
-    
-    blockquote {font-family:Josefin_Sans;
-                color:black;}
-    
-    p{font-size:12pt; font-family:sans-serif; color:black;}
-    
-    img{float:left;
-    padding-right:30px;}
-    
-    footer {font-size:9pt; border-top:5px; clear:both;}
     
     
-}
