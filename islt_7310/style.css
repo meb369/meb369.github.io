@@ -22,7 +22,7 @@ a {font-family:sans-serif;}
 
 footer {font-size:9pt; border-top:5px solid purple; clear:both;}
 
-footer a:link{color:green; text-decoration:none; font-size:10pt; padding-top:5px;}
+footer a:link{color:#004080; text-decoration:none; font-size:10pt; padding-top:5px;}
 
 footer a:hover, a:focus{color:purple;}
 
