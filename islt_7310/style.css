@@ -3,6 +3,10 @@
         Developed: April 5, 2020
         This document validated on April 26, 2020*/
 
+@font-face{
+    font-family:Josefin_Sans;
+    src:url(JosefinSans-Regular.ttf);
+}
 body {background-color:#c1c8e4; margin-top:15px; width:100%;}
 
 
@@ -21,7 +25,11 @@ aside{display:block;
 
 a {font-family:sans-serif;}
 
-footer {font-size:9pt; border-top:5px solid purple; clear:both; font-family:url(Josefin Sans) sans-serif;}
+blockquote {font-family:Josefin_Sans;}
+
+footer {font-size:9pt; border-top:5px solid purple; clear:both;}
+
+
 
 footer a:link{color:#004080; text-decoration:none; font-size:10pt; padding-top:5px;}
 
@@ -47,7 +55,9 @@ h1+p::first-letter{font-size: 20pt;}
 
 h3{background-color:#84ceeb; color:#24305e; font-size: 16pt; font-family:sans-serif; border-style: double; margin-top:10px;}
 
-p, blockquote{font-size:12pt; font-family:sans-serif; color:#24305e;}
+
+
+p{font-size:12pt; font-family:sans-serif; color:#24305e;}
 
 .ul{font-family:sans-serif; font-size:12pt; color:#24305e;font-weight: bolder; list-style-type:none;}
 
@@ -90,4 +100,27 @@ h1{color:#24305e; font-size: 24pt; font-family:sans-serif;background-color:#84ce
     width:100%;
     height: 100%;}
 }
+
+@media print{
+    h3 {color:black;
+        font-size:16pt;
+        font-family:serif;}
+    
+    ul{font-family:serif; font-size:12pt; color:black;font-weight: bolder; list-style-type:none;}
+
+    .li1{font-family:serif; color:black; font-size:12pt; font-weight:100; list-style-type:disc;}
+
+    .li2{font-family:serif; color:black; font-size:12pt; font-weight:100;}
+    
+    blockquote {font-family:Josefin_Sans;
+                color:black;}
+    
+    p{font-size:12pt; font-family:sans-serif; color:black;}
+    
+    img{float:left;
+    padding-right:30px;}
+    
+    footer {font-size:9pt; border-top:5px; clear:both;}
+    
+    
 }
