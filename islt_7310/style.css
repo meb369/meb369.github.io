@@ -102,6 +102,10 @@ h1{color:#24305e; font-size: 24pt; font-family:sans-serif;background-color:#84ce
 }
 
 @media print{
+    .noprint{
+        display:none;
+    }
+    
     h3 {color:black;
         font-size:16pt;
         font-family:serif;}
