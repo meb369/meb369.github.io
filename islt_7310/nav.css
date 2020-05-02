@@ -115,5 +115,10 @@ nav ul li a.lastitem {color:#24305e}
     width:240px;
     margin-bottom:1px;} 
 }
-        
+    
+@media print {
+    nav {
+        display:none;
+    }
+}
         
