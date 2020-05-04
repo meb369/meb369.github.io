@@ -1,18 +1,18 @@
         /* Title: Style
         Author: Meghan Brueggemann
         Developed: April 5, 2020
-        This document validated on April 26, 2020*/
+        This document validated on May 3, 2020*/
 
 @font-face{
     font-family:Josefin_Sans;
     src:url(JosefinSans-Regular.ttf);
 }
-body {background-color:#c1c8e4; margin-top:15px; width:100%;}
+body {background-color:#ffffff; margin-top:15px; width:100%;}
 
 
-header{font-family:sans-serif; color:#24305e; margin-bottom:10px; width:100%;}
+header{font-family:sans-serif; color:#0c0f0a; margin-bottom:10px; width:100%; background-color:#ff206e}
 
-ul{font-family:sans-serif; font-size:12pt; color:#24305e;font-weight: bolder; list-style-type:none;}
+ul{font-family:sans-serif; font-size:12pt; color:#0c0f0a;font-weight: bolder; list-style-type:none;}
 
 header+img {float:left;
             padding-top:10px;}
@@ -21,15 +21,13 @@ main{float:left;
     width:59%;}
 
 aside{display:block;
-      float:right; width:39%; border-left:3px solid purple; margin-right:10px; padding-left:7px;}
+      float:right; width:38%; border-left:3px solid #ff206e; margin-right:10px; padding-left:15px; margin-left:12px;}
 
 a {font-family:sans-serif;}
 
 blockquote {font-family:Josefin_Sans;}
 
-footer {font-size:9pt; border-top:5px solid purple; clear:both;}
-
-
+footer {font-size:9pt; border-top:5px solid #ff206e; clear:both;}
 
 footer a:link{color:#004080; text-decoration:none; font-size:10pt; padding-top:5px;}
 
@@ -46,38 +44,56 @@ img{float:left;
             max-width:400px;
             height: auto;}
 
-header{font-family:sans-serif; color:#24305e; margin-top:10px; float:left; font-size:  24pt;  margin-bottom:10px;}
+header{font-family:sans-serif; color:#0c0f0a; margin-top:10px; float:left; font-size:  24pt;  margin-bottom:10px;}
 
+h1.myname {font-family:"Josefin_Sans"; margin-bottom:10px; margin-top: 10px;border:none; background-color: #ff2063; float:left; font-size:30pt; color:#fbff12;margin-left:10px}
 
 header+p::first-letter{font-size:12pt;}
 
 h1+p::first-letter{font-size: 20pt;}
 
-h3{background-color:#84ceeb; color:#24305e; font-size: 16pt; font-family:sans-serif; border-style: double; margin-top:10px;}
+h3{background-color:#41ead4; color:#0c0f0a; font-size: 16pt; font-family:sans-serif; border-style: double; margin-top:10px;}
 
 
+p{font-size:12pt; font-family:sans-serif; color:#0c0f0a;}
 
-p{font-size:12pt; font-family:sans-serif; color:#24305e;}
+.ul{font-family:sans-serif; font-size:12pt; color:#0c0f0a;font-weight: bolder; list-style-type:none;}
 
-.ul{font-family:sans-serif; font-size:12pt; color:#24305e;font-weight: bolder; list-style-type:none;}
+.li1{font-family:sans-serif; color:#0c0f0a; font-size:12pt; font-weight:100; list-style-type:disc;}
 
-.li1{font-family:sans-serif; color:#24305e; font-size:12pt; font-weight:100; list-style-type:disc;}
+.li2{font-family:sans-serif; color:#0c0f0a; font-size:12pt; font-weight:100;}
 
-.li2{font-family:sans-serif; color:#8860d0; font-size:12pt; font-weight:100;}
+h1{color:#0c0f0a; font-size: 24pt; font-family:sans-serif;background-color:#41ead4; border-style:double; margin-top:10px;}
 
-h1{color:#24305e; font-size: 24pt; font-family:sans-serif;background-color:#84ceeb; border-style:double; margin-top:10px;}
+#section1 {padding:75px;
+           margin-top:30px;
+           text-align:center;}
+#project1 {text-align:center;}
+
+#section2 {padding:75px; background-color: #fbff12; text-align:center;}
+#project2 {text-align: center;}
+
+#section3 {padding:75px; text-align:center;}
+#project3 {text-align: center;}
+
+#resume {background-color:#ff206e; color:#fbff12; font-size:16pt; text-align:center;}
+
+#communications:hover {transform:scale(2);}
+#envelopes:hover {transform:scale(2);}
 
 .box{
     width:100%;
     padding:10px;
     margin:50px auto;
-    background-image: url(images/footer.png);
+    background-image: url(images/footer.jpg);
     background-size:cover;
             }
 
 .iframe-container{
-    width: 300px;
+    width: 75%;
     height: auto;
+    padding-left:40px;
+    padding-right:40px;
 }
     
     
@@ -99,7 +115,7 @@ h1{color:#24305e; font-size: 24pt; font-family:sans-serif;background-color:#84ce
     left:0;
     width:100%;
     height: 100%;}
-}
+
 
 @media print {
     h3{background-color:white; color:black; font-size: 16pt; font-family:serif; border-style: double; margin-top:10px;}

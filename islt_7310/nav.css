@@ -1,7 +1,7 @@
         /* Title: Navigation
         Author: Meghan Brueggemann
         Developed: April 5, 2020
-        This document validated on April 26, 2020*/
+        This document validated on May 3, 2020*/
 
 nav {float:right;
      padding: 20px;
@@ -17,7 +17,7 @@ nav>ul li{position:relative;
           font-weight:bold;
           text-align: center;
           font-family:sans-serif;
-          color:#24305e;
+          color:#0c0f0a;
           margin-bottom:auto;
           text-decoration:none;
          }
@@ -25,10 +25,10 @@ nav>ul li{position:relative;
 
 nav a{text-decoration:none;
       display: inline-block;
-      border: 2px solid #243053;
+      border: 2px solid #0c0f0a;
       width: 160px;
       padding: 10px 10px 10px 10px;
-      background-color:#f76c6c;
+      background-color:#41ead4;
       margin: 1px;
       font-family:sans-serif;}
 
@@ -36,15 +36,15 @@ nav ul li{
       position:relative;
       float:left;
       font-weight: bold;
-      color:#24305e;
+      color:#0c0f0a;
       text-decoration: none;}
 
 nav a{text-decoration:none;
       display:block;}
 
-nav a:link{background-color:#f76c6c;}
-nav a:hover, nav a:focus{background-color:#347485;}
-nav a:active{background-color:#f8e9a1;}
+nav a:link{background-color:#ff206e;}
+nav a:hover, nav a:focus{background-color:#fffcf9;}
+nav a:active{background-color:#ff206e;}
 
 nav ul>li ul{position:absolute;
                     top:100%;
@@ -60,11 +60,9 @@ nav_menu ul ul li{float:none;
                   }
 
 nav ul li a{text-decoration: none;
-                color: #24305e}
+                color: #08302f;}
 
-nav ul li a.current {color:#a8d0e6;}
-
-nav ul li a.lastitem {color:#24305e}
+nav ul li a.current {color:#ff206e;}
 
 #menu-icon{
     background:url(images/menu-icon.png) no-repeat center;
@@ -111,7 +109,7 @@ nav ul li a.lastitem {color:#24305e}
            display:inline-block;
            border-top:none;
     border-bottom:none;
-    padding: 15px 0px 15px 35px
+    padding: 15px 0px 15px 35px;
     width:240px;
     margin-bottom:1px;} 
 }
