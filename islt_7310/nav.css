@@ -71,30 +71,34 @@ nav ul li a.current {color:#ff206e;}
     height:32px;}
     
 @media only screen and (max-width:640px){
-    header{position:relative;
-    display:block;
-    width:100%;}
+    header{
+        position:relative;
+        display:block;
+        width:100%;}
     
-    nav {float:left;
-         padding:20px;}
+    nav {
+        float:left;
+        padding:20px;
+    }
     
     #menu-icon{
         display:inline-block;
         padding-left:20px;
         width:32px;
         height:32px;
-        float:left;
-        
+        float:left;    
     }
     
     nav ul, nav:active ul{
         display:none;
         position:absolute;
         padding: 50px 0px 20px 20px;
-        top:20px;}
+        top:20px;
+    }
     
     nav:hover ul{
-        display:block;}
+        display:block;
+    }
     
     nav li{
         text-align:center;
@@ -103,15 +107,21 @@ nav ul li a.current {color:#ff206e;}
     }
     
     nav:hover #mobileHide{
-        display:none;}
+        display:none;
+    }
     
-    nav a {text-decoration:none;
-           display:inline-block;
-           border-top:none;
-    border-bottom:none;
-    padding: 15px 0px 15px 35px;
-    width:240px;
-    margin-bottom:1px;} 
+    nav a {
+        text-decoration:none;
+        display:inline-block;
+        border-top:none;
+        border-bottom:none;
+        padding: 15px 0px 15px 35px;
+        width:240px;
+        margin-bottom:1px;
+    } 
+    nav ul ul li {
+        display:none;
+    }
 }
     
 @media print {
