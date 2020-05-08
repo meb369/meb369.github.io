@@ -1,18 +1,18 @@
         /* Title: Style
         Author: Meghan Brueggemann
         Developed: April 5, 2020
-        This document validated on May 3, 2020*/
+        This document validated on May 8, 2020*/
 
 @font-face{
     font-family:Josefin_Sans;
     src:url(JosefinSans-Regular.ttf);
 }
-body {background-color:#ffffff; margin-top:15px; width:100%;}
+body {background-color:#f5f4eb; margin-top:15px; width:100%;}
 
 
-header{font-family:sans-serif; color:#0c0f0a; margin-bottom:10px; width:100%; background-color:#ff206e}
+header{font-family:sans-serif; color:#434e36; margin-bottom:10px; width:100%; background-color:#893667}
 
-ul{font-family:sans-serif; font-size:12pt; color:#0c0f0a;font-weight: bolder; list-style-type:none;}
+ul{font-family:sans-serif; font-size:12pt; color:#434e36;font-weight: bolder; list-style-type:none;}
 
 header+img {float:left;
             padding-top:10px;}
@@ -21,13 +21,13 @@ main{float:left;
     width:50%;}
 
 aside{display:block;
-      float:right; width:35%; border-left:.5px solid #ff206e; margin-right:10px; padding-left:15px; margin-left:12px;}
+      float:right; width:35%; border-left:.5px solid #893667; margin-right:10px; padding-left:15px; margin-left:12px;}
 
 a {font-family:sans-serif;}
 
 blockquote {font-family:Josefin_Sans;}
 
-footer {font-size:9pt; border-top:5px solid #ff206e; clear:both;}
+footer {font-size:9pt; border-top:5px solid #893667; clear:both; margin-left:20px; margin-right:20px;}
 
 footer a:link{color:#004080; text-decoration:none; font-size:10pt; padding-top:5px;}
 
@@ -40,43 +40,44 @@ footer a:active{color:coral;}
 img{float:left;
     padding-right:30px;}
 
+li{color:#434e36;}
+
 .responsive{width:100%;
             max-width:400px;
             height: auto;}
 
-header{font-family:sans-serif; color:#0c0f0a; margin-top:10px; float:left; font-size:  24pt;  margin-bottom:10px;}
+header{font-family:sans-serif; color:#f4f5eb; margin-top:10px; float:left; font-size:  24pt;  margin-bottom:10px;}
 
-h1.myname {font-family:"Josefin_Sans"; margin-bottom:10px; margin-top: 10px;border:none; background-color: #ff2063; float:left; font-size:30pt; color:#fbff12;margin-left:10px}
+h1.myname {font-family:"Josefin_Sans"; margin-bottom:10px; margin-top: 10px;border:none; background-color: #893667; float:left; font-size:30pt; color:#f5f4eb;margin-left:10px}
 
 header+p::first-letter{font-size:12pt;}
 
 h1+p::first-letter{font-size: 20pt;}
 
-h3{background-color:#41ead4; color:#0c0f0a; font-size: 16pt; font-family:sans-serif; border-style: double; margin-top:10px;}
+h3{background-color:#464e36; color:#f5f4eb; font-size: 16pt; font-family:sans-serif; border-style: double; margin-top:10px;}
 
-
-p{font-size:12pt; font-family:sans-serif; color:#0c0f0a;}
+p{font-size:12pt; font-family:sans-serif; color:#434e36;}
 
 .ul{font-family:sans-serif; font-size:12pt; color:#0c0f0a;font-weight: bolder; list-style-type:none;}
 
-.li1{font-family:sans-serif; color:#0c0f0a; font-size:12pt; font-weight:100; list-style-type:disc;}
+.li1{font-family:sans-serif; color:#434e36; font-size:12pt; font-weight:100; list-style-type:disc;}
 
-.li2{font-family:sans-serif; color:#0c0f0a; font-size:12pt; font-weight:100;}
+.li2{font-family:sans-serif; color:#434e36; font-size:12pt; font-weight:100;}
 
-h1{color:#0c0f0a; font-size: 24pt; font-family:sans-serif;background-color:#41ead4; border-style:double; margin-top:10px;}
+h1{color:#893667; font-size: 24pt; font-family:sans-serif;background-color:#41ead4; border-style:double; margin-top:10px;}
 
-#section1 {padding:75px;
+#section1 {padding:25px;
            margin-top:30px;
            text-align:center;}
 #project1 {text-align:center;}
 
-#section2 {padding:75px; background-color: #fbff12; text-align:center;}
+#section2 {padding:25px; background-color: #9eb087; text-align:center;}
 #project2 {text-align: center;}
 
-#section3 {padding:75px; text-align:center;}
+#section3 {padding:25px; text-align:center;}
 #project3 {text-align: center;}
 
-#resume {background-color:#ff206e; color:#fbff12; font-size:16pt; text-align:center;}
+#resume {background-color:#893667; color:#f5f4eb; font-size:16pt; text-align:center; display:block; width:350px;}
 
 #communications:hover {transform:scale(2);}
 #envelopes:hover {transform:scale(2);}
@@ -84,14 +85,15 @@ h1{color:#0c0f0a; font-size: 24pt; font-family:sans-serif;background-color:#41ea
 .box{
     width:100%;
     padding:10px;
-    margin:50px auto;
-    background-image: url(images/footer.jpg);
+    margin:10px auto;
     background-size:cover;
+    background-color:#f5f4eb;
+    background-image: linear-gradient(to right, #f5f4eb,#893667);
             }
 
 .iframe-container{
-    width: 75%;
-    height: auto;
+    width: 560px;
+    height: 315px;
     padding-left:40px;
     padding-right:40px;
 }

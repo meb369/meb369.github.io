@@ -1,7 +1,7 @@
         /* Title: Navigation
         Author: Meghan Brueggemann
         Developed: April 5, 2020
-        This document validated on May 3, 2020*/
+        This document validated on May 8, 2020*/
 
 nav {float:right;
      padding: 20px;
@@ -17,7 +17,7 @@ nav>ul li{position:relative;
           font-weight:bold;
           text-align: center;
           font-family:sans-serif;
-          color:#0c0f0a;
+          color:#893667;
           margin-bottom:auto;
           text-decoration:none;
          }
@@ -25,10 +25,10 @@ nav>ul li{position:relative;
 
 nav a{text-decoration:none;
       display: inline-block;
-      border: 2px solid #0c0f0a;
+      border: 2px solid #434e36;
       width: 160px;
       padding: 10px 10px 10px 10px;
-      background-color:#41ead4;
+      background-color:#9eb087;
       margin: 1px;
       font-family:sans-serif;}
 
@@ -36,15 +36,15 @@ nav ul li{
       position:relative;
       float:left;
       font-weight: bold;
-      color:#0c0f0a;
+      color:#08302f;
       text-decoration: none;}
 
 nav a{text-decoration:none;
       display:block;}
 
-nav a:link{background-color:#ff206e;}
-nav a:hover, nav a:focus{background-color:#fffcf9;}
-nav a:active{background-color:#ff206e;}
+nav a:link{background-color:#f5f4eb;}
+nav a:hover, nav a:focus{background-color:#f5f4eb;}
+nav a:active{background-color:#893667;}
 
 nav ul>li ul{position:absolute;
                     top:100%;
@@ -62,7 +62,9 @@ nav_menu ul ul li{float:none;
 nav ul li a{text-decoration: none;
                 color: #08302f;}
 
-nav ul li a.current {color:#ff206e;}
+nav ul li a.current {color:#08302f;
+                     font-size:12pt;
+                     font-weight:bolder;}
 
 #menu-icon{
     background:url(images/menu-icon.png) no-repeat center;
@@ -81,6 +83,10 @@ nav ul li a.current {color:#ff206e;}
         padding:20px;
     }
     
+    #mobileHide{
+        display:none;
+    }
+    
     #menu-icon{
         display:inline-block;
         padding-left:20px;
@@ -92,8 +98,8 @@ nav ul li a.current {color:#ff206e;}
     nav ul, nav:active ul{
         display:none;
         position:absolute;
-        padding: 50px 0px 20px 20px;
         top:20px;
+        left:220px;
     }
     
     nav:hover ul{
@@ -115,7 +121,7 @@ nav ul li a.current {color:#ff206e;}
         display:inline-block;
         border-top:none;
         border-bottom:none;
-        padding: 15px 0px 15px 35px;
+        padding: 10px 0px 15px 35px;
         width:240px;
         margin-bottom:1px;
     } 
