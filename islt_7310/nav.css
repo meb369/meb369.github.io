@@ -81,6 +81,7 @@ nav ul li a.current {color:#08302f;
     nav {
         float:left;
         padding:20px;
+        margin-right:-400px;
     }
     
     #mobileHide{
@@ -98,7 +99,7 @@ nav ul li a.current {color:#08302f;
     nav ul, nav:active ul{
         display:none;
         position:absolute;
-        top:20px;
+        top:80px;
         left:220px;
     }
     
@@ -127,6 +128,7 @@ nav ul li a.current {color:#08302f;
     } 
     nav ul ul li {
         display:none;
+        
     }
 }
     

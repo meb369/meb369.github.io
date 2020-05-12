@@ -71,13 +71,13 @@ h1{color:#893667; font-size: 24pt; font-family:sans-serif;background-color:#41ea
            text-align:center;}
 #project1 {text-align:center;}
 
-#section2 {padding:25px; background-color: #9eb087; text-align:center;}
+#section2 {padding:25px; background-color: #e2f2ce; text-align:center;}
 #project2 {text-align: center;}
 
 #section3 {padding:25px; text-align:center;}
 #project3 {text-align: center;}
 
-#resume {background-color:#893667; color:#f5f4eb; font-size:16pt; text-align:center; display:block; width:350px;}
+#resume {background-color:#893667; color:#f5f4eb; font-size:16pt; text-align:center; display:block; width:100%;}
 
 #communications:hover {transform:scale(2);}
 #envelopes:hover {transform:scale(2);}
@@ -92,19 +92,27 @@ h1{color:#893667; font-size: 24pt; font-family:sans-serif;background-color:#41ea
             }
 
 .iframe-container{
-    width: 560px;
-    height: 315px;
-    padding-left:40px;
-    padding-right:40px;
+    position:relative;
+    width:100%;
+    padding-bottom:56.25%;
+    height:0;
+    text-align:center;
+}
+
+.iframe-container iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    padding-top:15px;
 }
 
 figure {
     margin-bottom:10px;
     display:block;
-    text-align:center;
-    border:2px solid black;
-    
-}
+    text-align:center;}
+
 figcaption{
     display:block;
     font-weight:bold;
@@ -162,12 +170,11 @@ tbody tr:nth-child(even) {background-color:beige;}
             background-color:beige;
         }
         
-    }
-
 .iframe-container {
     position: relative;
     width: 95%;
     padding-bottom: 56.25%;
+    padding-right: 10px;
     height:0;}
 
 .iframe-container iframe{
@@ -177,7 +184,7 @@ tbody tr:nth-child(even) {background-color:beige;}
     width:100%;
     height: 100%;}
 
-
+ }
 
 @media print {
     h3{background-color:white; color:black; font-size: 16pt; font-family:serif; border-style: double; margin-top:10px;}
