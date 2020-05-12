@@ -1,7 +1,7 @@
         /* Title: Style
         Author: Meghan Brueggemann
         Developed: April 5, 2020
-        This document validated on May 8, 2020*/
+        This document validated on May 12, 2020*/
 
 @font-face{
     font-family:Josefin_Sans;
@@ -36,6 +36,8 @@ footer a:hover, a:focus{color:purple;}
 footer a:visited{color:maroon;}
 
 footer a:active{color:coral;}
+
+footer p{font-size:9pt;}
 
 img{float:left;
     padding-right:30px;}
